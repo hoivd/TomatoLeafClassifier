@@ -1,0 +1,21 @@
+2025-05-20 18:39:34,352 - INFO - Bắt đầu chương trình tomato classify
+2025-05-20 18:39:34,394 - INFO - Tiến hành load path dữ liệu train
+2025-05-20 18:39:43,110 - INFO - Tiến hành load path dữ liệu val
+2025-05-20 18:39:43,429 - INFO - Tiến hành load ảnh train và val
+2025-05-20 18:40:54,032 - INFO - Tiến hành thống kê dữ liệu
+2025-05-20 18:40:57,412 - INFO - Tiến hành tiền xử lý dữ liệu
+2025-05-20 18:40:57,786 - INFO - Áp dụng bộ bilateral filter
+2025-05-20 18:42:34,050 - INFO - Tiến hành trích xuất đặc trưng
+2025-05-20 18:42:34,583 - INFO - Tiến hành trích xuất đặc trưng ['lbp', 'hsv']
+2025-05-20 18:45:56,784 - INFO - Tiến hành huấn luyện
+2025-05-20 18:50:59,613 - INFO - {'svm': {'best_params': {'kernel': 'linear', 'C': 0.1, 'gamma': 'scale', 'degree': 2, 'coef0': 0.0}, 'best_score': 0.941}, 'random_forest': {'best_params': {'n_estimators': 150, 'max_depth': 20, 'max_features': 1.0}, 'best_score': 0.771}, 'knn': {'best_params': {'n_neighbors': 5, 'weights': 'uniform', 'metric': 'manhattan', 'algorithm': 'brute'}, 'best_score': 0.94}}
+2025-05-20 18:51:00,024 - INFO - Đã chọn mô hình: svm với tham số: {'kernel': 'linear', 'C': 0.1, 'gamma': 'scale', 'degree': 2, 'coef0': 0.0}
+2025-05-20 18:51:00,439 - INFO - Tiến hành dự đoán
+2025-05-20 18:51:06,909 - INFO - Tiến hành đánh giá
+2025-05-20 18:51:07,769 - INFO - 
+    Classification Evaluation Summary:
+        Accuracy : 0.941
+        Precision: 0.9415302527972944
+        Recall   : 0.941
+        F1-score : 0.9408329258397531
+
