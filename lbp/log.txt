@@ -1,0 +1,19 @@
+2025-05-25 17:11:17,014 - INFO - Bắt đầu chương trình tomato classify
+2025-05-25 17:11:17,042 - INFO - Tiến hành load path dữ liệu train
+2025-05-25 17:11:32,614 - INFO - Tiến hành load path dữ liệu val
+2025-05-25 17:11:33,165 - INFO - Tiến hành load ảnh train và val
+2025-05-25 17:13:12,755 - INFO - Tiến hành thống kê dữ liệu
+2025-05-25 17:13:15,697 - INFO - Tiến hành trích xuất đặc trưng
+2025-05-25 17:20:23,792 - INFO - Tiến hành trích xuất đặc trưng ['lbp']
+2025-05-25 17:21:44,274 - INFO - Tiến hành huấn luyện
+2025-05-25 17:22:19,921 - INFO - {'svm': {'best_params': {'kernel': 'linear', 'C': 0.1, 'gamma': 'scale', 'degree': 2, 'coef0': 0.0}, 'best_score': 0.419}, 'knn': {'best_params': {'n_neighbors': 5, 'weights': 'uniform', 'metric': 'euclidean', 'algorithm': 'brute'}, 'best_score': 0.486}}
+2025-05-25 17:22:19,935 - INFO - Đã chọn mô hình: knn với tham số: {'n_neighbors': 5, 'weights': 'uniform', 'metric': 'euclidean', 'algorithm': 'brute'}
+2025-05-25 17:22:19,947 - INFO - Tiến hành dự đoán
+2025-05-25 17:22:19,983 - INFO - Tiến hành đánh giá
+2025-05-25 17:22:20,014 - INFO - 
+    Classification Evaluation Summary:
+        Accuracy : 0.486
+        Precision: 0.47396344306450594
+        Recall   : 0.486
+        F1-score : 0.4728371932661308
+
