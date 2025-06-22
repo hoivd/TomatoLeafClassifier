@@ -1,0 +1,29 @@
+2025-06-22 18:52:30,651 - INFO - Bắt đầu chương trình TomatoLeafClassifier
+2025-06-22 18:52:30,699 - INFO - Tiến hành load path dữ liệu train
+2025-06-22 18:52:41,468 - INFO - Tiến hành load path dữ liệu val
+2025-06-22 18:52:41,844 - INFO - Tiến hành load ảnh train và val
+2025-06-22 18:53:47,042 - INFO - Tiến hành thống kê dữ liệu
+2025-06-22 18:53:50,861 - INFO - Tiến hành tiền xử lý dữ liệu
+2025-06-22 18:53:52,397 - INFO - Tiến hành trích xuất đặc trưng
+2025-06-22 18:53:52,781 - INFO - Tiến hành trích xuất đặc trưng ['hsv']
+2025-06-22 18:53:57,635 - INFO - ⏱️ Thời gian trích xuất đặc trưng: 5.4305 giây
+2025-06-22 18:53:58,527 - INFO - Tiến hành huấn luyện
+2025-06-22 18:54:37,968 - INFO - {'svm': {'best_params': {'kernel': 'linear', 'C': 0.01, 'gamma': 'scale', 'degree': 2, 'coef0': 0.0}, 'best_score': 0.944}, 'knn': {'best_params': {'n_neighbors': 3, 'weights': 'uniform', 'metric': 'manhattan', 'algorithm': 'brute'}, 'best_score': 0.941}}
+2025-06-22 18:54:38,369 - INFO - Tiến hành dự đoán svm
+2025-06-22 18:54:39,909 - INFO - Tiến hành đánh giá svm
+2025-06-22 18:54:39,920 - INFO - 
+        Classification Evaluation Summary svm:
+            Accuracy : 0.944
+            Precision: 0.9451096379623177
+            Recall   : 0.944
+            F1-score : 0.9439605323078515
+    
+2025-06-22 18:54:40,580 - INFO - Tiến hành dự đoán knn
+2025-06-22 18:54:40,707 - INFO - Tiến hành đánh giá knn
+2025-06-22 18:54:40,715 - INFO - 
+        Classification Evaluation Summary knn:
+            Accuracy : 0.941
+            Precision: 0.942673383927546
+            Recall   : 0.941
+            F1-score : 0.940762763951714
+    
