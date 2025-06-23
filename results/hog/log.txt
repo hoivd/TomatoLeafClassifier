@@ -1,0 +1,28 @@
+2025-06-23 08:35:29,926 - INFO - Bắt đầu chương trình TomatoLeafClassifier
+2025-06-23 08:35:29,971 - INFO - Tiến hành load path dữ liệu train
+2025-06-23 08:35:48,265 - INFO - Tiến hành load path dữ liệu val
+2025-06-23 08:35:48,578 - INFO - Tiến hành load ảnh train và val
+2025-06-23 08:37:50,120 - INFO - Tiến hành thống kê dữ liệu
+2025-06-23 08:37:53,754 - INFO - Tiến hành tiền xử lý dữ liệu
+2025-06-23 08:37:55,411 - INFO - Tiến hành trích xuất đặc trưng
+2025-06-23 08:37:55,831 - INFO - Tiến hành trích xuất đặc trưng ['hog']
+2025-06-23 08:42:24,103 - INFO - ⏱️ Thời gian trích xuất đặc trưng: 268.8982 giây
+2025-06-23 08:42:29,875 - INFO - Tiến hành huấn luyện
+2025-06-23 08:42:48,840 - INFO - Tiến hành dự đoán svm
+2025-06-23 08:46:14,912 - INFO - Tiến hành đánh giá svm
+2025-06-23 08:46:14,926 - INFO - 
+        Classification Evaluation Summary svm:
+            Accuracy : 0.593
+            Precision: 0.5942757194012195
+            Recall   : 0.593
+            F1-score : 0.5906663342875814
+    
+2025-06-23 08:46:15,957 - INFO - Tiến hành dự đoán knn
+2025-06-23 08:46:27,116 - INFO - Tiến hành đánh giá knn
+2025-06-23 08:46:27,123 - INFO - 
+        Classification Evaluation Summary knn:
+            Accuracy : 0.1
+            Precision: 0.13261841836978983
+            Recall   : 0.1
+            F1-score : 0.06461506504800542
+    
